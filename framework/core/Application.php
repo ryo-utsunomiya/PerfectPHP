@@ -1,5 +1,7 @@
 <?php
 
+namespace PerfectPHP\framework\core;
+
 /**
  * Application.
  *
@@ -27,7 +29,7 @@ abstract class Application
 
     /**
      * デバッグモードを設定
-     * 
+     *
      * @param boolean $debug
      */
     protected function setDebugMode($debug)
